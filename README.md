@@ -36,7 +36,7 @@
 # Part 2: (Inheritance and Virtual Functions)
 
 ## Description:
-      In this program I create an abstract class, Employee, and derive the classes Professional and NonProfesstional from it. 
+      In this program I create an abstract class, Employee, and derive the classes Professional and NonProfesstional from it. Both of the derived classes contain unique variations of the virtual functions and data contained in the Employee class, which is displayed to the console in int main()
       
 ## How to run:
       1: Get files: Employee.h, Professional.cpp, NonProfessional.cpp, and DS_Assignment2 from gethub
