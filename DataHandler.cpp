@@ -74,8 +74,8 @@ void DataHandler::ModifyArrayByIndex()
 void DataHandler::Add()
 {
 	int num;
+	std::cout << "Enter the number you would like to add to the end of the array: ";
 	try {//Try / Catch block to catch exceptions caused by user input
-		std::cout << "Enter the number you would like to add to the end of the array: ";
 		std::cin >> num; if (std::cin.fail()) throw "Incorrect data type";
 
 		std::cout << num << " has been added to the end of the array." << std::endl;

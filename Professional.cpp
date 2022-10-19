@@ -15,7 +15,7 @@ void Professional::PrintEmployeeData() const{
     std::cout << std::fixed;
     std::cout << std::setprecision(2);
     std::cout << "Employee's weekly salary: $" << WeeklySalary() << std::endl;
-    std::cout << "Employee's health care contributions: $" << HealthCareContribution() << std::endl;
+    std::cout << "Employee's healthcare contributions: $" << HealthCareContribution() << std::endl;
     std::cout << "Employee's total vacation days: " << Vacation() << std::endl;
 }
 
@@ -28,7 +28,7 @@ double Professional::WeeklySalary() const
 //Computes and returns healthcare contributions ((healthcare percent * salary)/100)
 double Professional::HealthCareContribution() const
 {
-    return (healthcarePercent * salary)/100;
+    return (healthcarePercent * WeeklySalary())/100;
 }
 
 //Simply returns the employees vacation days
